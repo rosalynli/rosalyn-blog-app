@@ -2,6 +2,8 @@ class PostsController < ApplicationController
     
     #READ ACTIONS
     def index
+        @posts = Post.all
+        render "index.html.erb"
     end
     
     def show
