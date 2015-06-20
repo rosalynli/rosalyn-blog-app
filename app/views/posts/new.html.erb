@@ -1,0 +1,16 @@
+<h4>New Post Form</h4>
+
+<%= form_for(@post, :html => { :multipart => true}) do |form| %>
+    <div>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+    </div>
+    <div>
+    <%= form.label :body %>
+    <%= form.text_area :body, size: "50x50" %> 
+    </div>
+    <div>
+        <%= form.submit "Submit" %>
+    </div>
+    
+    <% end %>
