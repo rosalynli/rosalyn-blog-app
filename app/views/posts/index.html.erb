@@ -1,7 +1,9 @@
 <h1> All the posts! </h1>
 
 <% @posts.each do |p| %> 
-    <div>
+    <div class="links">
 <%= link_to p.title, post_path(p) %>
     </div>
 <% end %> 
+
+<a href = "/posts">Go BACK!</a>
