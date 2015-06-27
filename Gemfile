@@ -47,5 +47,9 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'quiet_assets'
+  
+  gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
+  
 end
 

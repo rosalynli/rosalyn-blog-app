@@ -33,4 +33,16 @@ class Post < ActiveRecord::Base
         puts "#{how_many}..."
     end
     
+    def upcase_body
+        return body.upcase
+    end
+    
+    def smush_body
+        return body.gsub(/\s+/, "")
+    end 
+    
+    def upcase_body
+        return body.upcase.split.join("")
+    end
+    
 end

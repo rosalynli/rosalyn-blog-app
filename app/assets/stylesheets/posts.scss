@@ -1,31 +1,44 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
-  font: 40px Arial, sans-serif;
-  color: #d3d3d3;
-  background: #008080;
-  border-radius: 10px;
-  box-shadow: 1px 1px 5px #000000;
+body { 
+  background-color:transparent; 
+}
 
+body { 
+  background-color:transparent; 
+}
+
+
+h1 {
+ font: 14px Arial, sans-serif;
+ color: #000000;
 }
 
 h2 {
-  font:  24px Arial, sans-serif;
-  color: black;
+ font: 30px Arial, sans-serif;
+ text-align: center;
+  color: #000000;
+  background-color: #008800;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
-h4 {
-  border-radius: 5px;
-  background: #d3d3d3;
-  color:  #04B486;
-  box-shadow: 1px 1px 5px #000000;
-
+h4{
+  font: 16px Arial, sans-serif;
+  background-color: #ffcc66 ;
+  background-image: url(http://all4desktop.com/data_images/original/4218905-nature-hd-vector.jpg);
+  padding: 50px 50px 50px 50px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .links {
-  background: #d3d3d3;
-  color:  #04B486;
-font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  background: #d0c4bd;
+  color: #000000;
+font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+  width: 300px;
 }
-
+ 
